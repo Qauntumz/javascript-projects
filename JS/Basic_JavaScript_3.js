@@ -27,3 +27,22 @@ function modulusFunction() {
     var mod = 31 % 5;
     document.getElementById("math6").innerHTML = "remainder of:  " + mod;
 }
+
+function negationFunction() {
+    var x = 10;
+    document.getElementById("math7").innerHTML = -x;
+}
+
+var J = 5;
+ J++;
+document.write(J)
+
+var K = 5;
+ K--;
+document.write(K)
+
+window.alert(Math.random() * 100);
+
+function mathFunction() {
+    document.getElementById("math8").innerHTML = Math.round(4.7);
+}
